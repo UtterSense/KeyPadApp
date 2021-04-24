@@ -15,6 +15,11 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 
     // Used to load the 'native-lib' library on application startup.
+    //NB: Due to the use of two different build configurations for the APP,
+    //if define the library as such:
+    //Android Studio:   native-lib
+    //          AOSP:   <name>-lib
+    //where <name> matches the source c and header files
     static {
         System.loadLibrary("native-lib");
     }
