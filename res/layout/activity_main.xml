@@ -23,7 +23,7 @@
                     android:paddingRight="10dp"
                     android:paddingStart="10dp"
                     android:layout_gravity="bottom"
-                    android:text="Scroll text!"
+                    android:text="@string/scroll_text"
                     android:textSize="15sp">
 
                 </TextView>
@@ -40,6 +40,6 @@
             android:textStyle="bold"
             android:textColor="#4a4a4a"
             android:onClick="onClick"
-            android:text= "Clear Text" />
+            android:text= "@string/clear_text" />
 
 </RelativeLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">KeyPadApp</string>
+    <string name="clear_text">Clear Text</string>
+    <string name="scroll_text">Scroll Text!</string>
 </resources>
