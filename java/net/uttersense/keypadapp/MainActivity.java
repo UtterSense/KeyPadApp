@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 
 
         // Example of a call to a native method
-        tv = findViewById(R.id.tv_text);
+        tv = (TextView) findViewById(R.id.tv_text);
         //text = stringFromJNI() + stringFromJNI() + stringFromJNI() + stringFromJNI() +stringFromJNI();
         //tv.setText(stringFromJNI());
         //text = text + "Last line!";
