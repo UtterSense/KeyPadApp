@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
     //          AOSP:   <name>-lib
     //where <name> matches the source c and header files
     static {
-        System.loadLibrary("native-lib");
+        System.loadLibrary("keypad-app-jni");
     }
     /*
      * Declare the JNI native methods:
@@ -34,7 +34,8 @@ public class MainActivity extends Activity {
 
     //Attributes:
     TextView tv;
-    String text = "This is a text string written on 17 April 2021";
+    //String text = "This is a text string written on 17 April 2021";
+    String text = stringFromJNI();
     int cnt = 0;
 
 
